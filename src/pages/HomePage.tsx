@@ -101,11 +101,11 @@ const HomePage: React.FC = () => {
           ))}
         </div>
 
-        <div className="absolute bottom-4 right-4 p-2 flex flex-col items-center space-y-2">
+        <div className="absolute bottom-4 right-4 p-3 flex flex-col items-center space-y-2 ">
           {phrases[currentPhraseIndex].icon}
         </div>
       </div>
-      <div className="w-full p-2">
+      <div className="w-full p-3 rounded-xl">
         <ExpertShowcase />
       </div>
       {/* Statistics Section */}

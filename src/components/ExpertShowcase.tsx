@@ -25,7 +25,7 @@ const experts: Expert[] = [
     id: 2,
     name: 'Jane Smith',
     profession: 'Relationship Counselor',
-    imageUrl: 'https://images.unsplash.com/photo-1651690802122-0611d2734232?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    imageUrl: 'https://www.shutterstock.com/shutterstock/photos/2086650673/display_1500/stock-photo-portrait-of-female-arab-psychotherapist-with-clipboard-looking-aside-and-smiling-standing-at-2086650673.jpg',
     story: 'Jane specializes in helping couples navigate their challenges and build stronger relationships.',
     link: '/pages/relationship-counselor', // Update link to the route you want
   },
@@ -52,7 +52,7 @@ const ExpertShowcase: React.FC = () => {
 
   return (
     <div 
-      className="relative flex flex-col items-center justify-center h-[400px] bg-cover bg-center text-white" 
+      className="relative flex flex-col items-center justify-center h-[600px] bg-cover bg-center text-white" 
       style={{ backgroundImage: `url(${currentExpert.imageUrl})` }}
     >
       <div className="absolute inset-0 bg-black opacity-50"></div> {/* Dark overlay for text visibility */}
